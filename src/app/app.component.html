@@ -1,24 +1,2 @@
-<div class='container' [formGroup]='formGroup' fxFlex fxLayout='row' fxLayoutGap='5px'>
-  <mat-form-field appearance='fill'>
-    <mat-label>
-      CPF
-    </mat-label>
-    <input matInput placeholder='CPF DO TITULAR DA CONTA'
-      formControlName='cpf'/>
-  </mat-form-field>
-
-  <mat-form-field appearance='fill'>
-    <mat-label>
-      SENHA
-    </mat-label>
-    <input matInput placeholder='DIGITE SUA SENHA' type='password'
-    formControlName='senha'/>
-  </mat-form-field>
-</div>
-
-
-<div class='container'>
-  <button mat-flat-button color='primary' (click)='login()'>
-    LOGIN
-  </button>
-</div>
+<router-outlet>
+</router-outlet>

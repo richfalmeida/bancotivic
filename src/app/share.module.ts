@@ -26,7 +26,9 @@ const modules: any[] = [
   MatDividerModule,
   MatSelectModule,
   FormsModule,
-  ReactiveFormsModule
+  ReactiveFormsModule,
+  MatCardModule
+
 ]
 
 @NgModule({
@@ -43,7 +45,8 @@ const modules: any[] = [
     MatDividerModule,
     MatSelectModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatCardModule
   ],
   exports: [
     CommonModule,
@@ -57,7 +60,8 @@ const modules: any[] = [
     MatDividerModule,
     MatSelectModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatCardModule
   ]
 })
 export class ShareModule { }

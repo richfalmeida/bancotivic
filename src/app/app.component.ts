@@ -6,16 +6,7 @@ import { FormControl, FormGroup } from '@angular/forms';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
   title: string = 'bancotivic';
-  formGroup: FormGroup = new FormGroup({})
 
-  ngOnInit(){
-    this.formGroup.addControl('cpf', new FormControl())
-    this.formGroup.addControl('senha', new FormControl())
-  }
-
-  login(){
-    console.log(this.formGroup.value)
-  }
 }

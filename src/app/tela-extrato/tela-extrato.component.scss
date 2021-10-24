@@ -1,0 +1,27 @@
+.fundo {
+  background-color: rgba(236, 236, 215, 0.7);
+  padding: 20px;
+  width: 200px;
+  cursor: pointer;
+  padding-left: 18px;
+  line-height: 40px;
+  min-width: 18px;
+  min-height: 18px;
+  max-width: 1128px;
+  margin: 0 auto;
+}
+.mat-flat-button.mat-red {
+  background-color: red;
+  color: white;
+  height: 35px;
+  width: 100px;
+  font-size: 15px;
+}
+.mat-flat-button.mat-green {
+  background-color: green;
+  color: white;
+  height: 35px;
+  width: 100px;
+  font-size: 14px;
+}
+
