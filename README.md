@@ -1,27 +1,50 @@
 # Bancotivic
+Projeto simples de uma conta bancária com as seguintes funcionalidades:
+CONSULTAR SALDO;
+REALIZAR DEPOSITO; 
+REALIZAR SAQUE;
+CADASTRAR-SE;
+E REALIZAR LOGIN;  
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.10.
+Projeto desenvolvido com o framework ANGULAR.  
 
-## Development server
+## Instalação
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+É necessário ter Node.JS e o Angular instalado. Caso ainda não o tenha, acesse o site do Node.js e baixe a última versão destinada ao seu sistema operacional. E para insatalar o Angular Cli, será preciso abrir o terminal do seu sistema operacional e digitar a instrução: npm install -g @angular/cli.
 
-## Code scaffolding
+## Execução 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Sequencialmente, concluindo a instalação, execute o seguinte comando no terminal do sistema operacional, dentro do diretório do projeto; para criar um novo projeto, dispondo dos arquivos necessários: 
+"ng new NOME-DO-PROJETO"
 
-## Build
+Depois é necessário iniciar o servidor HTTP para testar de forma fácil e imedita as alterações feitas no projeto. 
+Em algum terminal, use o seguinte comando: "ng serve"
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Componentes e Modulos criados
 
-## Running unit tests
+Quando cria-se um novo projeto, automaticamente são gerados os arquivos modulos e componentes com as extenções (.html; .scss; .ts;), caso seja necessário algum componente não criado anteriormente, simplesmente é só executar a seguinte linha de comando: "ng generate component [nome componente]" 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Principais arquivos 
 
-## Running end-to-end tests
+Eu destaquei apenas os arquivos principais :
+“e2e” - pasta contendo os arquivos de testes e configurações para realizar testes;
+“node_modules” - pasta contendo todos os pacotes restaurados a partir das dependências definidas no arquivo package.json;
+“src/” - pasta da aplicação principal que contém a pasta app, os templates HTML, os componentes, módulos, etc.;
+"app" - pasta contendo o arquivo de  módulo, e componente, sua view, arquivo de estilo, testes, etc.;
+“main.ts" -  arquivo que inicia a aplicação; 
+"tsconfig.json, index.html, etc” - arquivos essenciais necessários para rodar a aplicação;
+“packages.json” - contém a referência a todos os pacotes necessários para a nossa aplicação Angular 2;
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Na pasta app temos os seguintes arquivos:
+app.component.css - arquivo de estilo;
+app.component.html - arquivo html contendo código HTML que será exibido na view;
+app.component.spec.ts - arquivo de testes;
+app.component.ts - arquivo principal que possui a lógica da aplicação;
+app.module.ts - arquivo de módulo que agrupa os componentes, diretivas, pipes e serviços usados na aplicação
 
-## Further help
+A sintaxe dos nomes dos arquivos segue o guia de estilo do Angular : https://angular.io/guide/styleguide
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Mais ajuda
+
+Para obter mais ajuda sobre o Angular CLI, use `ng help` ou confira a página [Visão geral e referência de comandos do Angular CLI] (https://angular.io/cli).
