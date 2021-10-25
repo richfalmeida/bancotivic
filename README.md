@@ -8,12 +8,6 @@ E REALIZAR LOGIN;
 
 Projeto desenvolvido com o framework ANGULAR.  
 
-## Usando/testando
-O usuário tem que realizar um cadastro simples fornecendo "cpf" e "senha", logo, clicando no botão "cadastrar-se", é direcionado para tela de login.
-Depois de inserir os dados de acesso, é direcionado para tela de saldo, onde é mostrado o valor contido na conta corrente desse usuário. 
-Pode-se também na mesma tela, clicar no botão "Depositar", aparecerá um campo para digitar o valor que deseja realizar a operação, logo em seguida clica-se no botão "Efetuar deposito!", efetivamente o valor é depositado e apresentado na mesma tela como saldo. 
-E por fim, para realizar o saque, deve-se fazer o mesmo procedimento como no anterior; depósito; só que clicando no botão "Sacar". 
-
 ## Instalação
 
 É necessário ter Node.JS e o Angular instalado. Caso ainda não o tenha, acesse o site do Node.js e baixe a última versão destinada ao seu sistema operacional. E para insatalar o Angular Cli, será preciso abrir o terminal do seu sistema operacional e digitar a instrução: npm install -g @angular/cli.
@@ -49,6 +43,13 @@ app.component.ts - arquivo principal que possui a lógica da aplicação;
 app.module.ts - arquivo de módulo que agrupa os componentes, diretivas, pipes e serviços usados na aplicação
 
 A sintaxe dos nomes dos arquivos segue o guia de estilo do Angular : https://angular.io/guide/styleguide
+
+
+## Usando/testando
+O usuário tem que realizar um cadastro simples fornecendo "cpf" e "senha", logo, clicando no botão "cadastrar-se", é direcionado para tela de login.
+Depois de inserir os dados de acesso, é direcionado para tela de saldo, onde é mostrado o valor contido na conta corrente desse usuário. 
+Pode-se também na mesma tela, clicar no botão "Depositar", aparecerá um campo para digitar o valor que deseja realizar a operação, logo em seguida clica-se no botão "Efetuar deposito!", efetivamente o valor é depositado e apresentado na mesma tela como saldo. 
+E por fim, para realizar o saque, deve-se fazer o mesmo procedimento como no anterior; depósito; só que clicando no botão "Sacar". 
 
 
 ## Mais ajuda
