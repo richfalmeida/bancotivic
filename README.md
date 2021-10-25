@@ -10,7 +10,7 @@ Projeto desenvolvido com o framework ANGULAR.
 
 ## Instalação
 
-É necessário ter Node.JS e o Angular instalado. Caso ainda não o tenha, acesse o site do Node.js e baixe a última versão destinada ao seu sistema operacional. E para insatalar o Angular Cli, será preciso abrir o terminal do seu sistema operacional e digitar a instrução: npm install -g @angular/cli.
+É necessário ter Node.JS e o Angular instalado. Caso ainda não o tenha, acesse o site do Node.js e baixe a última versão destinada ao seu sistema operacional. E para insatalar o Angular Cli, será preciso abrir o terminal do seu sistema operacional e digitar a instrução: "npm install -g @angular/cli".
 
 ## Execução 
 
