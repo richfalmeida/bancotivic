@@ -9,7 +9,10 @@ E REALIZAR LOGIN;
 Projeto desenvolvido com o framework ANGULAR.  
 
 ## Usando/testando
-O usuário tem que realizar um cadastro simples fornecendo "cpf" e "senha, logo clicando no botão "cadastrar-se", é direcionado para tela de login. Depois de inserir os dados de acesso, é direcionado para tela de saldo, onde é mostrado o valor contido na conta corrente desse usuário. Pode-se também na mesma tela, clicar no botão "Depositar", aparecerá um campo para digitar o valor que deseja realizar a operação, logo em seguida clica-se no botão "Efetuar deposito!", efetivamente o valor é depositado e apresentado na mesma tela como saldo. E por fim, para realizar o saque, deve-se fazer o mesmo procedimento como no anterior; depósito; só que clicando no botão "Sacar". 
+O usuário tem que realizar um cadastro simples fornecendo "cpf" e "senha", logo, clicando no botão "cadastrar-se", é direcionado para tela de login.
+Depois de inserir os dados de acesso, é direcionado para tela de saldo, onde é mostrado o valor contido na conta corrente desse usuário. 
+Pode-se também na mesma tela, clicar no botão "Depositar", aparecerá um campo para digitar o valor que deseja realizar a operação, logo em seguida clica-se no botão "Efetuar deposito!", efetivamente o valor é depositado e apresentado na mesma tela como saldo. 
+E por fim, para realizar o saque, deve-se fazer o mesmo procedimento como no anterior; depósito; só que clicando no botão "Sacar". 
 
 ## Instalação
 
